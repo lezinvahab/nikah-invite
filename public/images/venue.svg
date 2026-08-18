@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF7F0"/>
+      <stop offset="1" stop-color="#DDE4D8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="450" fill="url(#bg)"/>
+
+  <!-- soft glow -->
+  <circle cx="400" cy="205" r="150" fill="#FFFFFF" opacity="0.55"/>
+  <circle cx="400" cy="205" r="150" fill="none" stroke="#B99D6C" stroke-width="1.2" opacity="0.4"/>
+  <circle cx="400" cy="205" r="120" fill="none" stroke="#B99D6C" stroke-width="0.8" opacity="0.28"/>
+
+  <!-- elegant arch -->
+  <g fill="none" stroke="#77806A" stroke-width="2.2" opacity="0.8">
+    <path d="M300 340 V270 A100 100 0 0 1 500 270 V340"/>
+    <path d="M320 340 V278 A80 80 0 0 1 480 278 V340" stroke-width="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- arch finial -->
+  <path d="M400 168 a10 10 0 1 0 0 20 a8 8 0 1 1 0 -20 z" fill="#B99D6C" opacity="0.8"/>
+
+  <!-- ground -->
+  <path d="M240 340 H560" stroke="#B99D6C" stroke-width="1.4" opacity="0.65"/>
+  <path d="M260 352 H540 M290 364 H510" stroke="#77806A" stroke-width="1.2" opacity="0.4"/>
+</svg>
