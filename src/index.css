@@ -514,8 +514,9 @@ ul {
 .hero__pattern {
   position: absolute;
   inset: 0;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   opacity: 0.5;
   pointer-events: none;
   overflow: hidden;
