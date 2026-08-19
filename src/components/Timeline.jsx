@@ -21,7 +21,7 @@ export default function Timeline() {
             {timeline.map((item, i) => (
               <li className="timeline__item" key={i}>
                 <span className="timeline__dot" aria-hidden="true" />
-                <p className="timeline__time">{item.time}</p>
+                {item.time && <p className="timeline__time">{item.time}</p>}
                 <h3 className="timeline__title">{item.title}</h3>
                 {item.note && <p className="timeline__note">{item.note}</p>}
               </li>

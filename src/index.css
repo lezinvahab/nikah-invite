@@ -565,11 +565,13 @@ ul {
 
 .hero__name {
   display: block;
+  white-space: nowrap;
   font-family: var(--font-serif);
   font-weight: 500;
   font-size: clamp(2.9rem, 12vw, 6.2rem);
   line-height: 1.04;
   letter-spacing: 0.08em;
+  text-indent: 0.04em;
   text-transform: uppercase;
   color: var(--brown);
 }
@@ -593,9 +595,12 @@ ul {
 .hero__date {
   margin-top: 1.7rem;
   display: inline-block;
-  font-size: clamp(0.82rem, 3vw, 0.95rem);
-  font-weight: 600;
-  letter-spacing: 0.32em;
+  max-width: min(100%, 32rem);
+  white-space: nowrap;
+  font-family: var(--font-serif);
+  font-size: clamp(0.66rem, 2.8vw, 0.95rem);
+  font-weight: 500;
+  letter-spacing: clamp(0.12em, 1.2vw, 0.3em);
   text-transform: uppercase;
   color: var(--brown);
   background: rgba(255, 253, 248, 0.55);
@@ -1503,13 +1508,51 @@ ul {
 /* ════════════════════════════════════════════════════════════════════
    RESPONSIVE — TABLET & DESKTOP
    ════════════════════════════════════════════════════════════════════ */
-/* ── Responsive — very small phones ─────────────────────────────────── */
-@media (max-width: 370px) {
-  .hero__date {
-    font-size: 0.72rem;
-    letter-spacing: 0.24em;
+/* ── Responsive — phones ────────────────────────────────────────────── */
+@media (max-width: 767px) {
+  .hero {
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 6.5rem 1.25rem 2.75rem;
   }
 
+  .hero__content {
+    width: 100%;
+  }
+
+  .hero__bismillah {
+    margin-bottom: 2rem;
+  }
+
+  .hero__names {
+    margin-top: 1.5rem;
+  }
+
+  .hero__amp {
+    margin-block: 0.55rem;
+  }
+
+  .hero__request {
+    margin-top: 2.4rem;
+  }
+
+  .divider {
+    margin-block: 1.6rem;
+  }
+
+  .hero__date {
+    margin-top: 2rem;
+  }
+
+  .hero__scroll {
+    position: static;
+    transform: none;
+    opacity: 0.75;
+  }
+}
+
+/* ── Responsive — very small phones ─────────────────────────────────── */
+@media (max-width: 370px) {
   .hero__content {
     padding-inline: 0.25rem;
   }

@@ -28,7 +28,7 @@ export const wedding = {
   // ── THE WEDDING DATE ───────────────────────────────────────────────
   date: {
     // Used by the countdown. Keep the local time of the ceremony.
-    iso: '2026-09-27T17:00:00',
+    iso: '2026-09-27T11:30:00',
     // Shown in the hero — format it however you like.
     display: 'SUNDAY · 27 SEPTEMBER 2026',
     // Shown in the footer.
@@ -37,10 +37,10 @@ export const wedding = {
 
   // ── NIKAH DETAILS ──────────────────────────────────────────────────
   nikah: {
-    time: '5:00 PM',
+    time: '11:30 AM',
     venue: "14's Auditorium",
     address: 'Nanminda, Balussery',
-    city: 'Kozhikode, Kerala, India',
+    city: 'Kozhikode',
     // Venue photo used in the "Venue" section. Leave empty ("") to hide it.
     venueImage: '/images/venue.svg',
     // Opens in the "View Location" & "Get Directions" buttons.
@@ -51,8 +51,8 @@ export const wedding = {
   // ── EVENT TIMELINE ─────────────────────────────────────────────────
   // Add or remove entries freely. `time` and `title` are required.
   timeline: [
-    { time: '5:00 PM', title: 'Nikah Ceremony', note: 'Followed by warm greetings' },
-    { time: '7:00 PM', title: 'Dinner & Celebration', note: 'A feast to share together' },
+    { time: '11:30 AM', title: 'Nikah Ceremony', note: 'Followed by warm greetings' },
+    { time: '', title: 'Feast', note: 'A feast to share together' },
   ],
 
   // ── RSVP → WHATSAPP ────────────────────────────────────────────────
