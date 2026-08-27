@@ -12,7 +12,9 @@ export default function Footer() {
         {groom.name} &amp; {bride.name}
       </p>
       <p className="footer__date">{date.long}</p>
-      <p className="footer__made">Made with love</p>
+      <a className="footer__made footer__made--link" href="https://lezins-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
+        Made with love <span className="footer__made-hint">↗</span>
+      </a>
     </footer>
   )
 }

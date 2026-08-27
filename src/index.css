@@ -1517,6 +1517,25 @@ ul {
   color: var(--brown-faint);
 }
 
+.footer__made--link {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: opacity 0.3s var(--ease), border-color 0.3s var(--ease);
+}
+
+.footer__made--link:hover {
+  opacity: 0.7;
+  border-bottom-color: var(--brown-faint);
+}
+
+.footer__made-hint {
+  font-size: 0.9em;
+  opacity: 0.65;
+  letter-spacing: 0.12em;
+  text-transform: lowercase;
+}
+
 /* ════════════════════════════════════════════════════════════════════
    RESPONSIVE — TABLET & DESKTOP
    ════════════════════════════════════════════════════════════════════ */
