@@ -13,7 +13,7 @@ export default function Footer() {
       </p>
       <p className="footer__date">{date.long}</p>
       <a className="footer__made footer__made--link" href="https://lezins-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
-        Made with love <span className="footer__made-hint">↗</span>
+        Made with love
       </a>
     </footer>
   )
