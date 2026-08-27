@@ -28,7 +28,7 @@ export const wedding = {
   // ── THE WEDDING DATE ───────────────────────────────────────────────
   date: {
     // Used by the countdown. Keep the local time of the ceremony.
-    iso: '2026-09-27T12:00:00',
+    iso: '2026-09-27T11:30:00',
     // Shown in the hero — format it however you like.
     display: 'SUNDAY · 27 SEPTEMBER 2026',
     // Shown in the footer.
@@ -37,7 +37,7 @@ export const wedding = {
 
   // ── NIKAH DETAILS ──────────────────────────────────────────────────
   nikah: {
-    time: '12:00 PM',
+    time: '11:30 AM',
     venue: "14's Auditorium",
     address: 'Nanminda, Balussery',
     city: 'Kozhikode',
@@ -51,7 +51,7 @@ export const wedding = {
   // ── EVENT TIMELINE ─────────────────────────────────────────────────
   // Add or remove entries freely. `time` and `title` are required.
   timeline: [
-    { time: '12:00 PM', title: 'Nikah Ceremony', note: '' },
+    { time: '11:30 AM', title: 'Nikah Ceremony', note: '' },
     { time: '', title: 'Feast', note: '' },
   ],
 
