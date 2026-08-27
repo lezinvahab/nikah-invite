@@ -51,8 +51,8 @@ export const wedding = {
   // ── EVENT TIMELINE ─────────────────────────────────────────────────
   // Add or remove entries freely. `time` and `title` are required.
   timeline: [
-    { time: '12:00 PM', title: 'Nikah Ceremony', note: 'Followed by warm greetings' },
-    { time: '', title: 'Feast', note: 'A feast to share together' },
+    { time: '12:00 PM', title: 'Nikah Ceremony', note: '' },
+    { time: '', title: 'Feast', note: '' },
   ],
 
   // ── RSVP → WHATSAPP ────────────────────────────────────────────────
@@ -108,7 +108,7 @@ export const wedding = {
     enabled: true,
     text: 'Your presence is the most cherished gift.',
     // A second line shown in smaller text (optional).
-    subtext: 'No gifts required — only your company and your prayers.',
+    subtext: '',
   },
 
   // ── ALBUM / GALLERY ────────────────────────────────────────────────

@@ -10,7 +10,7 @@ export default function Timeline() {
       <div className="container">
         <Reveal>
           <div className="heading-center">
-            <p className="eyebrow">The evening in store</p>
+            <p className="eyebrow">The day ahead</p>
             <h2 className="section-title">Event Timeline</h2>
             <Divider />
           </div>
