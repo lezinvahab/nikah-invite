@@ -23,6 +23,7 @@ export default function Couple() {
             </div>
             <h3 className="couple__name">{groom.name}</h3>
             <p className="couple__title">The Groom</p>
+            <p className="couple__family">S/o<br />Abdul Latheef K T<br />&amp;<br />Sabira M K</p>
           </Reveal>
 
           <Reveal delay={220} className="couple__person">
@@ -31,6 +32,7 @@ export default function Couple() {
             </div>
             <h3 className="couple__name">{bride.name}</h3>
             <p className="couple__title">The Bride</p>
+            <p className="couple__family">D/o<br />Noushad<br />&amp;<br />Shameena</p>
           </Reveal>
 
           <Reveal delay={300} className="couple__message">

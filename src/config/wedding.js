@@ -20,15 +20,15 @@ export const wedding = {
   },
 
   groom: {
-    name: 'AHLAM', // shown large in the hero
-    fullName: 'Ahlam', // used inside sentences
+    name: 'AMEEN AHLAM', // shown large in the hero
+    fullName: 'Ameen Ahlam', // used inside sentences
     image: '/images/groom.svg', // portrait — replace with your own photo
   },
 
   // ── THE WEDDING DATE ───────────────────────────────────────────────
   date: {
     // Used by the countdown. Keep the local time of the ceremony.
-    iso: '2026-09-27T11:30:00',
+    iso: '2026-09-27T12:00:00',
     // Shown in the hero — format it however you like.
     display: 'SUNDAY · 27 SEPTEMBER 2026',
     // Shown in the footer.
@@ -37,7 +37,7 @@ export const wedding = {
 
   // ── NIKAH DETAILS ──────────────────────────────────────────────────
   nikah: {
-    time: '11:30 AM',
+    time: '12:00 PM',
     venue: "14's Auditorium",
     address: 'Nanminda, Balussery',
     city: 'Kozhikode',
@@ -51,7 +51,7 @@ export const wedding = {
   // ── EVENT TIMELINE ─────────────────────────────────────────────────
   // Add or remove entries freely. `time` and `title` are required.
   timeline: [
-    { time: '11:30 AM', title: 'Nikah Ceremony', note: 'Followed by warm greetings' },
+    { time: '12:00 PM', title: 'Nikah Ceremony', note: 'Followed by warm greetings' },
     { time: '', title: 'Feast', note: 'A feast to share together' },
   ],
 
@@ -87,11 +87,11 @@ export const wedding = {
     heading: 'With the blessings of our families',
     bride: {
       title: 'Bride\'s Family',
-      names: 'Daughter of Mr. & Mrs. [Father\'s Name]', // e.g. "Mr. & Mrs. Abdul Kareem"
+      names: 'Daughter of Noushad & Shameena',
     },
     groom: {
       title: 'Groom\'s Family',
-      names: 'Son of Mr. & Mrs. [Father\'s Name]', // e.g. "Mr. & Mrs. Shihabudeen"
+      names: 'Son of Abdul Latheef K T & Sabira M K',
     },
   },
 
@@ -150,7 +150,7 @@ export const wedding = {
     details: true,
     timeline: true,
     venue: true,
-    gallery: true,
+    gallery: false,
     family: true, // also controlled by family.enabled
     dressCode: false, // removed — also controlled by dressCode.enabled
     specialNote: true, // also controlled by specialNote.enabled
@@ -162,6 +162,5 @@ export const wedding = {
     { label: 'Home', href: '#home' },
     { label: 'Details', href: '#details' },
     { label: 'Timeline', href: '#timeline' },
-    { label: 'Gallery', href: '#gallery' },
   ],
 }

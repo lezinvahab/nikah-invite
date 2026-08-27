@@ -22,7 +22,7 @@
   <rect x="596" y="264" width="8" height="8" fill="#B99D6C" opacity="0.9" transform="rotate(45 600 268)"/>
 
   <!-- names -->
-  <text x="600" y="405" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="96" fill="#43372E" opacity="0.92" font-weight="500" letter-spacing="4">AHLAM &amp; HANOON</text>
+  <text x="600" y="405" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="82" fill="#43372E" opacity="0.92" font-weight="500" letter-spacing="3">AMEEN AHLAM &amp; HANOON</text>
 
   <!-- date -->
   <text x="600" y="476" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" fill="#AC6C71" opacity="0.9" letter-spacing="8">NIKAH INVITATION</text>
