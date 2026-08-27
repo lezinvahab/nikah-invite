@@ -87,7 +87,7 @@ export const wedding = {
     heading: 'With the blessings of our families',
     bride: {
       title: 'Bride\'s Family',
-      names: 'Daughter of Noushad & Shameena',
+      names: 'Daughter of Noushad V P & Shameena K K',
     },
     groom: {
       title: 'Groom\'s Family',
