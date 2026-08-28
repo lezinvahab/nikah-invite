@@ -23,6 +23,10 @@ export default function Couple() {
             <p className="couple__family">S/o<br />Abdul Latheef K T<br />&amp;<br />Sabira M K</p>
           </Reveal>
 
+          <div className="couple__amp-mobile" aria-hidden="true">
+            &amp;
+          </div>
+
           <Reveal delay={220} className="couple__person">
             <h3 className="couple__name">{bride.name}</h3>
             <p className="couple__title">The Bride</p>
