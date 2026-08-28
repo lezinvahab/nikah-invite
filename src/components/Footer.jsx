@@ -9,7 +9,9 @@ export default function Footer() {
       <Divider />
       <p className="footer__script">With love &amp; gratitude</p>
       <p className="footer__names">
-        {groom.name} &amp; {bride.name}
+        <span className="footer__names-line">{groom.name}</span>
+        <span className="footer__names-amp">&amp;</span>
+        <span className="footer__names-line">{bride.name}</span>
       </p>
       <p className="footer__date">{date.long}</p>
       <a className="footer__made footer__made--link" href="https://lezins-portfolio.vercel.app" target="_blank" rel="noopener noreferrer">
