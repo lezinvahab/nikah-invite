@@ -838,7 +838,7 @@ ul {
   overflow: hidden;
   border-radius: 999px 999px 8px 8px; /* arch silhouette */
   border: 1px solid var(--line);
-  background: var(--ivory);
+  background: #fdf8f0;
 }
 
 .couple__frame img {

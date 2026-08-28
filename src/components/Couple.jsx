@@ -18,18 +18,12 @@ export default function Couple() {
 
         <div className="couple__grid">
           <Reveal delay={100} className="couple__person">
-            <div className="couple__frame">
-              <img src={groom.image} alt={`Portrait of ${groom.fullName}`} width="400" height="500" loading="lazy" />
-            </div>
             <h3 className="couple__name">{groom.name}</h3>
             <p className="couple__title">The Groom</p>
             <p className="couple__family">S/o<br />Abdul Latheef K T<br />&amp;<br />Sabira M K</p>
           </Reveal>
 
           <Reveal delay={220} className="couple__person">
-            <div className="couple__frame">
-              <img src={bride.image} alt={`Portrait of ${bride.fullName}`} width="400" height="500" loading="lazy" />
-            </div>
             <h3 className="couple__name">{bride.name}</h3>
             <p className="couple__title">The Bride</p>
             <p className="couple__family">D/o<br />Noushad V P<br />&amp;<br />Shameena K K</p>
