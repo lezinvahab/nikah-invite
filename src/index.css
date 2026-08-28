@@ -5,10 +5,10 @@
 
 :root {
   /* ── Palette ───────────────────────────────────────────────────── */
-  --cream: #f9f0f8;
-  --ivory: #f3e0f2;
-  --blush: #e9c9ec;
-  --blush-deep: #d9a8df;
+  --cream: #f4e3f4;
+  --ivory: #eccce9;
+  --blush: #e0aad8;
+  --blush-deep: #cc8fcc;
   --rose: #c98a8b;
   --rose-deep: #ac6c71;
   --sage: #a7b6a0;
@@ -575,7 +575,7 @@ ul {
   letter-spacing: 0.08em;
   text-indent: 0.04em;
   text-transform: uppercase;
-  color: var(--brown);
+  color: #4e2a52;
 }
 
 .hero__amp {
@@ -859,7 +859,7 @@ ul {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   margin-top: 1.4rem;
-  color: var(--brown);
+  color: #4e2a52;
 }
 
 .couple__title {
