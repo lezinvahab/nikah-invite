@@ -16,16 +16,18 @@ export default function Couple() {
           </div>
         </Reveal>
 
-        <div className="couple__grid">
+        <div className="couple__names-mobile" aria-hidden="true">
+            <span className="couple__names-mobile-line">{groom.name}</span>
+            <span className="couple__names-mobile-amp">&amp;</span>
+            <span className="couple__names-mobile-line">{bride.name}</span>
+          </div>
+
+          <div className="couple__grid">
           <Reveal delay={100} className="couple__person">
             <h3 className="couple__name">{groom.name}</h3>
             <p className="couple__title">The Groom</p>
             <p className="couple__family">S/o<br />Abdul Latheef K T<br />&amp;<br />Sabira M K</p>
           </Reveal>
-
-          <div className="couple__amp-mobile" aria-hidden="true">
-            &amp;
-          </div>
 
           <Reveal delay={220} className="couple__person">
             <h3 className="couple__name">{bride.name}</h3>
